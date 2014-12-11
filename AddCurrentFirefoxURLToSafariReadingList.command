@@ -5,6 +5,7 @@ on run argv
 		# bring firefox to front
 		set frontmost of process "Firefox" to true
 		# copy URL to clipboard
+		# from http://www.alfredforum.com/topic/2013-how-to-get-frontmost-tab’s-url-and-title-of-various-browsers/
 		keystroke "l" using command down
 		keystroke "c" using command down
 	end tell
